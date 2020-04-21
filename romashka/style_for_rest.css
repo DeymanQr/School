@@ -1,0 +1,67 @@
+body {
+	background: url("imgs/dead.jpg");
+	background-size: 100%;
+	background-attachment: fixed;
+	font-family: sans-serif;
+}
+header {
+	display: flex;
+	font-size: 45px;
+}
+a {
+	color: black;
+	text-decoration: none;
+}
+table {
+	border: 3px solid black;
+	text-align: center;
+	padding: 5px;
+}
+td, th {
+	padding: 5px;
+	font-size: 20px;
+	border: 3px dashed black;
+	height: 350px;
+	width: 200px;
+	transition: none .5s ease-in 0s;
+	transition-property: transform;
+}
+td:hover, th:hover {
+	transform: rotate(1turn);
+}
+td {
+	background-color: #23c0d9;
+}
+th {
+	background-color: #1e35a8;
+}
+h1 {
+	color: #005dba;
+	font-size: 50px;
+}
+.table__img {
+	width: 200px;
+	border: 5px solid black;
+	vertical-align: bottom;
+}
+.rus {
+	background-color: #a823d9;
+}
+.isp {
+	background-color: #d300d6;
+}
+.fra {
+	background-color: #1cd100;
+}
+.tel {
+	margin-left: 800px;
+}
+.main__a {
+	display: flex;
+}
+.parrot__img {
+	width: 200px;
+}
+.main {
+	width: 1500px;
+}
