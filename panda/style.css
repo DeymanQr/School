@@ -1,0 +1,154 @@
+/*   body   */
+
+body {
+	font-family: monospace;
+	background-attachment: fixed;
+	background-size: 100%;
+	margin: 0;
+}
+
+.dark_theme {
+	background: #333459;
+}
+
+.light_theme {
+	background: #90cd80;
+}
+
+/*   gif   */
+
+.crazy {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	z-index: 2;
+}
+
+.gifka {
+	background: url("imgs/dance_panda.gif");
+	background-size: 100%;
+	background-attachment: fixed;
+}
+
+
+/*   div   */
+
+.info {
+	display: flex;
+	justify-content: space-between;
+	margin: 10px;
+	padding: 10px;
+	border-radius: 10px;
+	background-color: #444459;
+	margin-top: 20px;
+	margin-bottom: 80px;
+	position: inherit;
+}
+
+.light_theme .info {
+	background-color: #00cf80;
+}
+
+/*   text   */
+
+.dark_theme p, 
+.dark_theme h1, 
+.dark_theme h2, 
+.dark_theme h3, 
+.dark_theme a, 
+.dark_theme ol, 
+.dark_theme ul, 
+.dark_theme span {
+	color: #fff;
+}
+.light_theme p, 
+.light_theme h1, 
+.light_theme h2, 
+.light_theme h3, 
+.light_theme a, 
+.light_theme ol, 
+.light_theme ul, 
+.light_theme span {
+	color: #000;
+}
+
+p, a, span {
+	font-size: 20px;
+}
+
+.main__p {
+	margin: 10px;
+	border-left: 3px solid #fff;
+	padding: 5px;
+}
+
+.light_theme .main__p {
+	border-left-color: #000;
+}
+
+ol, ul {
+	font-size: 15px;
+}
+
+a {
+	text-decoration: none;
+}
+
+h1 a {
+	font-size: 35px;
+}
+
+h2 a, h2{
+	font-size: 30px;
+	border-bottom: 3px solid #fff;
+	margin: 10px;
+	padding-bottom: 5px;
+}
+
+.light_theme h2 a, 
+.light_theme h2 {
+	border-bottom-color: #000;
+}
+
+h3 {
+	font-size: 25px;
+}
+
+/*   imgs   */
+
+.img__div {
+	height: 400px;
+	border-radius: 10%;
+	background: #987;
+	text-align: center;
+	font-family: sans-serif;
+	margin: 5px;
+	margin-left: 50px;
+	padding: 10px;
+}
+
+img {
+	height: 350px;
+	border: 3px solid #def;
+	padding: 1px;
+	border-radius: 10%;
+}
+
+.img__subtext {
+	font-size: 15px;
+	color: #ddd;
+}
+
+/* button */
+
+.changeTheme {
+	position: fixed;
+	margin-left: 1500px;
+	padding: 10px;
+	background: #123;
+	border-radius: 10px;
+}
+
+.light_theme .changeTheme {
+	background: #90ed80;
+}
